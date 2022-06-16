@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "FlexSDK"
+  spec.name         = "FlextudioSDK"
   spec.version      = "1.0.0"
   spec.summary      = "FlexSDK is a Framework created by YLW."
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "FlexSDK is a Framework intended for YLW FlexTudio customers."
+  spec.description  = "FlextudioSDK is a Framework intended for YLW FlexTudio customers."
 
   spec.homepage     = "https://github.com/FlexSDKCreator"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
