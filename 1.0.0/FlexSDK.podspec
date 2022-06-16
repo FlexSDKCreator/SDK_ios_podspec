@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "FlexSDK is a Framework intended for YLW FlexTudio customers."
 
-  spec.homepage     = "https://ksystem_om@bitbucket.org/KsystemGit"
+  spec.homepage     = "https://github.com/FlexSDKCreator"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author               = { "FlexSDK Creator" => "ksystem.nepal@gmail.com" }
+  spec.author               = { "FlexSDKCreator" => "ksystem.nepal@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -59,7 +59,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios
+  spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
    spec.ios.deployment_target = "13.0"
