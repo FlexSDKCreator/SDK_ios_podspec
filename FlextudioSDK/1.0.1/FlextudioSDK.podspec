@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlextudioSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "FlextudioSDK is a Framework created by YLW."
 
   # This description is used to generate tags and improve search results.
@@ -127,11 +127,11 @@ Pod::Spec.new do |spec|
   
   spec.static_framework = true
 
-  spec.dependency "ObjectMapper"
-  spec.dependency "Firebase"
-  spec.dependency "Firebase/Core"
-  spec.dependency "Firebase/DynamicLinks"
-  spec.dependency "Firebase/Messaging"
-  spec.dependency "SDWebImage"
+  spec.dependency "ObjectMapper", '~> 4.2.0'
+  spec.dependency "Firebase", '~> 9.1.0'
+  spec.dependency "Firebase/Core", '~> 9.1.0'
+  spec.dependency "Firebase/DynamicLinks", '~> 9.1.0'
+  spec.dependency "Firebase/Messaging", '~> 9.1.0'
+  spec.dependency "SDWebImage", '~> 5.12.6'
 
 end
