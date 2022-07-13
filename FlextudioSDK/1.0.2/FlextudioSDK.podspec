@@ -71,7 +71,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-   spec.source       = { :git => "https://github.com/FlexSDKCreator/SDK_ios.git", :branch => "main", :tag => "#{spec.version}" }
+   spec.source       = { :git => "https://FlexSDKCreator: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@github.com/FlexSDKCreator/SDK_ios.git", :branch => "main", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
