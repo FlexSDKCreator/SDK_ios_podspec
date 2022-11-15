@@ -71,7 +71,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-   spec.source       = { :git => "https://FlexSDKCreator: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@github.com/FlexSDKCreator/SDK_ios.git", :branch => "main", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://FlexSDKCreator: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@github.com/FlexSDKCreator/SDK_ios.git", :branch => "main", :tag => "#{spec.version}" }
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -101,6 +102,7 @@ Pod::Spec.new do |spec|
    spec.resources =  "FlexSDK/**/*.{storyboard,xib,png,jpeg,jpg,gif}"
    spec.ios.resource_bundle = { 'FlexSDKAssets' => ['FlexSDK/assets/*'] }
   # spec.ios.resource_bundle = { 'FlexSDKResource' => ['FlexSDK/**/*.{storyboard,xib,png,jpeg,jpg,gif,xcassets}'] }
+
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
