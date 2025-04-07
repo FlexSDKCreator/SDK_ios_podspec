@@ -132,11 +132,11 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
 
   spec.dependency "ObjectMapper", '~> 4.2.0'
-  spec.dependency "Firebase", '~> 9.1.0'
-  spec.dependency "Firebase/Core", '~> 9.1.0'
-  spec.dependency "Firebase/DynamicLinks", '~> 9.1.0'
-  spec.dependency "Firebase/Installations", '~> 9.1.0'
-  spec.dependency "Firebase/Messaging", '~> 9.1.0'
+  spec.dependency "Firebase", '~> 10.29.0'
+  spec.dependency "Firebase/Core", '~> 10.29.0'
+  spec.dependency "Firebase/DynamicLinks", '~> 10.29.0'
+  spec.dependency "Firebase/Installations", '~> 10.29.0'
+  spec.dependency "Firebase/Messaging", '~> 10.29.0'
   spec.dependency "SDWebImage", '~> 5.12.6'
   spec.dependency "GoogleMLKit/BarcodeScanning", '~> 3.2.0'
 
