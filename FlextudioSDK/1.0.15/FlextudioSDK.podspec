@@ -73,6 +73,7 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => "https://github.com/FlexSDKCreator/SDK_ios.git", :branch => "main", :tag => "#{spec.version}" }
 
 
+
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -137,6 +138,6 @@ Pod::Spec.new do |spec|
   spec.dependency "Firebase/Installations", '~> 10.29.0'
   spec.dependency "Firebase/Messaging", '~> 10.29.0'
   spec.dependency "SDWebImage", '~> 5.12.6'
-  spec.dependency "GoogleMLKit/BarcodeScanning", '~> 3.2.0'
+  spec.dependency "GoogleMLKit/BarcodeScanning", '~> 6.0.0'
 
 end
