@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   spec.dependency "Firebase/DynamicLinks", '~> 10.29.0'
   spec.dependency "Firebase/Installations", '~> 10.29.0'
   spec.dependency "Firebase/Messaging", '~> 10.29.0'
-  spec.dependency "SDWebImage", '~> 5.12.6'
+  spec.dependency "SDWebImage", '~> 5.18.12'
   spec.dependency "GoogleMLKit/BarcodeScanning", '~> 6.0.0'
 
 end
